@@ -1,8 +1,3 @@
-"""
-This is a web crawling project which is getting instant exchange data.
-Then we can calculate how much money we can invest for its conversion.
-"""
-
 import requests, re, datetime
 from bs4 import BeautifulSoup
 
