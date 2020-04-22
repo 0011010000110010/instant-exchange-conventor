@@ -51,8 +51,7 @@ types = {
     }
 }
 
-for t in types:
-    typ = t
+for typ in types:
     exchangeURL = "https://kur.doviz.com" + types[typ]["path"]
     r = requests.get(exchangeURL)
     soup = BeautifulSoup(r.content, "html.parser")
