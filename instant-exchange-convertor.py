@@ -23,7 +23,7 @@ types = {
         "regex": "DOLAR(\S+)"
     },
     "bitcoin": {
-        "name": "BITCOIN",
+        "name": "BITCOIN ($)",
         "path": "/kripto-paralar/bitcoin",
         "tag": "ul",
         "class": "piyasa-ozeti",
